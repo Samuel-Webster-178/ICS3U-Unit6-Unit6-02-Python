@@ -9,7 +9,7 @@
 import random
 
 
-def highest_number_calculator(array = []):
+def highest_number_calculator(array=[]):
     highest_number = 0
     counter1 = 0
     while counter1 < len(array):
@@ -17,6 +17,7 @@ def highest_number_calculator(array = []):
             highest_number = array[counter1]
         counter1 += 1
     return highest_number
+
 
 def main():
     # I calculate circumference
