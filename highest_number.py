@@ -10,7 +10,7 @@ import random
 
 
 def highest_number_calculator(array=[]):
-    highest_number = 0
+    highest_number = array[0]
     counter1 = 0
     while counter1 < len(array):
         if array[counter1] > highest_number:
