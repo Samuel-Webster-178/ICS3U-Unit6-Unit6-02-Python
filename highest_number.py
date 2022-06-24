@@ -10,6 +10,7 @@ import random
 
 
 def highest_number_calculator(array=[]):
+    # this function is to get largest number in an array
     highest_number = array[0]
     counter1 = 0
     while counter1 < len(array):
