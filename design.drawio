@@ -10,7 +10,7 @@
                 <mxCell id="7Z-LrOooxTyzb09muiCP-2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="7Z-LrOooxTyzb09muiCP-1" vertex="1">
                     <mxGeometry x="364" y="-20" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="" style="edgeStyle=none;html=1;" edge="1" parent="7Z-LrOooxTyzb09muiCP-1" source="7Z-LrOooxTyzb09muiCP-3" target="9">
+                <mxCell id="11" value="" style="edgeStyle=none;html=1;" parent="7Z-LrOooxTyzb09muiCP-1" source="7Z-LrOooxTyzb09muiCP-3" target="9" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="7Z-LrOooxTyzb09muiCP-3" value="Get random_numbers" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="7Z-LrOooxTyzb09muiCP-1" vertex="1">
@@ -49,14 +49,34 @@
                 <mxCell id="3" value="" style="edgeStyle=none;html=1;" parent="7Z-LrOooxTyzb09muiCP-1" source="1" target="7Z-LrOooxTyzb09muiCP-4" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
+                <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;rounded=0;" edge="1" parent="7Z-LrOooxTyzb09muiCP-1" source="1" target="0">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="120" y="440"/>
+                            <mxPoint x="120" y="310"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="1" value="if random_numbers[counter1] &amp;gt; highest_number" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="7Z-LrOooxTyzb09muiCP-1" vertex="1">
                     <mxGeometry x="204" y="390" width="420" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="" style="edgeStyle=none;html=1;" edge="1" parent="7Z-LrOooxTyzb09muiCP-1" source="9" target="0">
+                <mxCell id="10" value="" style="edgeStyle=none;html=1;" parent="7Z-LrOooxTyzb09muiCP-1" source="9" target="0" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="set highest_number = random_numbers[0]" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="7Z-LrOooxTyzb09muiCP-1">
+                <mxCell id="9" value="set highest_number = random_numbers[0]" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="7Z-LrOooxTyzb09muiCP-1" vertex="1">
                     <mxGeometry x="150" y="170" width="528" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7Z-LrOooxTyzb09muiCP-1">
+                    <mxGeometry x="425" y="360" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7Z-LrOooxTyzb09muiCP-1">
+                    <mxGeometry x="675" y="270" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7Z-LrOooxTyzb09muiCP-1">
+                    <mxGeometry x="425" y="500" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7Z-LrOooxTyzb09muiCP-1">
+                    <mxGeometry x="165" y="410" width="30" height="20" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
